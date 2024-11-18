@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+    --cor-de-fundo: #f5f5f5;
+    --texto-principal: #f30707;
+    --texto-secundario: #000000;  
+    --font:"bebas+neue", sans-serif                
+}
+
+body{
+    background-color: var (--cor-de-fundo);
+    color:var (--texto-principal);
+    font-family: var (--font);
+    height: 100vh;
+    margin: 0;
+}
+
+header{
+    background-color: var( --texto-principal);
+    text-align: center;
+    padding: 1px;
+}
+
+h1{
+  color:var (--cor-de-fundo);
+  font-size:3rem;
+  font-weight: 900;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+  
+
+
+nav a{
+    text-decoration: none;
+    color: var(--bg-color);
+    margin: 0 2rem 1rem 0;
+    font-size: 1.2rem;
+}
+
+
+
+nav a:hover {
+    text-decoration: underline;
+    transform: scale(1.3);
+    transition: transform 0.2s;
+}
+
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    width: 100%;
+    height: 3rem;
+    margin-top: 2rem;
+    width: 100%;
+    padding-left:5r;
+}
+
+
+
+
+
+
+
+
+
+
+
